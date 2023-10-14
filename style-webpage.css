@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
+body{
+    font-family: 'Open Sans' , sans-serif;
+}
+
 a{
     color: #a6a6a6;
     margin: 0px 15px 0px 0px;
-    font-family: 'Open Sans' , sans-serif;
+    text-decoration: none;
+    font-size: 14px;
 }
 
 a.highlight{
@@ -18,6 +23,13 @@ a.platinum{
     color: #ff6a58
 }
 
+a.dropdown{
+    color:#ffffff;
+    background-color: #ff6a58;
+    padding: 4px 6px;
+    border-radius: 4px;
+}
+
 
 .nav-bar-container{
     display: flex;
@@ -25,6 +37,34 @@ a.platinum{
     font-size: 16px;
     color:#000;
     justify-content: space-between;
-    padding: 15px 0px;
-    
+    padding: 15px 0px;   
+}
+
+.layout-box-root{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 20px;
+    font-size: 16px;
+    justify-content: space-between;
+}
+
+.container-box-courses{
+    color: #333333;
+    display: inline-block;
+}
+
+.container-box-videos{
+    color: #ff6a58;
+    display: inline-block;
+}
+
+a.without-background{
+    color: #ff6a58;
+    padding: 4px 6px;
+    border-radius: 4px;
+}
+
+img.icons{
+    width: 22px;
+    height: 18px;
 }
